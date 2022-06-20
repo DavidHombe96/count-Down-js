@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CountDown</title>
+    <!--   CSS STYLE  -->
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <link rel="stylesheet" href="./css/fontawesome.min.css" />
+    <link rel="stylesheet" href="./css/app.css" />
+  </head>
+  <body>
+    <header>
+      <h1 class="logo">DavidHombe</h1>
+
+      <nav>
+        <ul class="nav">
+          <li class="nav-item">
+            <a href="#" class="nav-link active-link">Coming soon</a>
+          </li>
+          <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Pricing</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Extension</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">News</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+      <i id="btn-mobile" class="fa fa-bars"></i>
+    </header>
+
+    <div class="countdown">
+      <div class="countdown-time">
+        <h2 class="countdown-time__title">Days</h2>
+        <span id="days" class="countdown-time__content"></span>
+      </div>
+      <div class="countdown-time">
+        <h2 class="countdown-time__title">Hours</h2>
+        <span id="hours" class="countdown-time__content hours"></span>
+      </div>
+      <div class="countdown-time">
+        <h2 class="countdown-time__title">Minutes</h2>
+        <span id="minutes" class="countdown-time__content"></span>
+      </div>
+      <div class="countdown-time">
+        <h2 class="countdown-time__title">Seconds</h2>
+        <span id="seconds" class="countdown-time__content"></span>
+      </div>
+    </div>
+
+    <div class="subscribe">
+      <p class="subscribe__info">
+        Subscribe to recive notification when launch the app.
+      </p>
+      <form action="#" class="subscribe-form">
+        <input
+          type="text"
+          class="subscribe-form__input-text"
+          name="subscribe"
+        />
+        <button type="submit" class="subscribe-form__button-sbumit">
+          Subscribe
+        </button>
+      </form>
+    </div>
+
+    <footer>
+      <a href="#"><i class="fab fa-facebook footer-icon"></i></a>
+      <a href="#"><i class="fab fa-twitter footer-icon"></i></a>
+      <a href="#"><i class="fab fa-instagram footer-icon"></i></a>
+      <a href="#"><i class="fab fa-linkedin footer-icon"></i></a>
+      <a href="#"> <i class="fab fa-youtube footer-icon"></i></a>
+    </footer>
+    <!--   SCRIPTS  -->
+    <script src="./js/all.min.js"></script>
+    <script src="./js/fontawesome.min.js"></script>
+    <script src="js/countdown.js"></script>
+  </body>
+</html>
